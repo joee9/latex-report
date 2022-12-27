@@ -1,0 +1,29 @@
+# Joe Nyhan, 12 May 2022
+# gitignore for latex repos using Latex workshop vscode extension (lots of aux files)
+
+# pycache files
+*.pyc 
+
+# latex auxillary files
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.run.xml
+*.synctex.gz
+
+# latex beamer aux files
+*.nav
+*.snm
+*.toc
+
+# latex md aux files
+*.md.tex
+*.verbatim
+*.markdown.in
+*.markdown.out
+*.markdown.lua
